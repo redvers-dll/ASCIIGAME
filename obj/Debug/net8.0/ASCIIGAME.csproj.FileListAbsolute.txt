@@ -1,0 +1,15 @@
+C:\Users\redvers\Desktop\ASCIIGAME\bin\Debug\net8.0\ASCIIGAME.exe
+C:\Users\redvers\Desktop\ASCIIGAME\bin\Debug\net8.0\ASCIIGAME.deps.json
+C:\Users\redvers\Desktop\ASCIIGAME\bin\Debug\net8.0\ASCIIGAME.runtimeconfig.json
+C:\Users\redvers\Desktop\ASCIIGAME\bin\Debug\net8.0\ASCIIGAME.dll
+C:\Users\redvers\Desktop\ASCIIGAME\bin\Debug\net8.0\ASCIIGAME.pdb
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.AssemblyInfoInputs.cache
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.AssemblyInfo.cs
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.csproj.CoreCompileInputs.cache
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.sourcelink.json
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.dll
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\refint\ASCIIGAME.dll
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.pdb
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ASCIIGAME.genruntimeconfig.cache
+C:\Users\redvers\Desktop\ASCIIGAME\obj\Debug\net8.0\ref\ASCIIGAME.dll
