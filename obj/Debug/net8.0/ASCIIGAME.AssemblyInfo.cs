@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASCIIGAME")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47179fcef79fd43733bb04f1a820b6ff998ef554")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9295efa06bfcb9454fa27669022d3636daac2856")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASCIIGAME")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASCIIGAME")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
