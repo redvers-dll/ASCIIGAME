@@ -12,9 +12,15 @@ namespace ConsoleGame
         static int playerX = 20;
         static int playerY = 10;
 
+        // tablica
+        static bool[,] obstacles = new bool[width, height];
+
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
+
+            // ręczne dodanie przeszkod
+            AddObstacles();
 
             while (true)
             {
@@ -24,6 +30,17 @@ namespace ConsoleGame
                 // input ruchu
                 HandleInput();
             }
+        }
+
+        static void AddObstacles()
+        {
+            // reczne dodanie przeszkód
+
+            obstacles[10, 5] = true;
+            obstacles[15, 8] = true;
+            obstacles[5, 15] = true;
+            obstacles[30, 12] = true;
+            obstacles[25, 18] = true;
         }
 
         static void DrawBoard()
@@ -37,6 +54,10 @@ namespace ConsoleGame
                     if (x == playerX && y == playerY)
                     {
                         Console.Write('X'); // gracz
+                    }
+                    else if (obstacles[x, y])
+                    {
+                        Console.Write('|'); // przeszkoda
                     }
                     else
                     {
@@ -55,16 +76,16 @@ namespace ConsoleGame
             switch (key)
             {
                 case ConsoleKey.UpArrow:
-                    if (playerY > 0) playerY--;
+                    if (playerY > 0 && !obstacles[playerX, playerY - 1]) playerY--;
                     break;
                 case ConsoleKey.DownArrow:
-                    if (playerY < height - 1) playerY++;
+                    if (playerY < height - 1 && !obstacles[playerX, playerY + 1]) playerY++;
                     break;
                 case ConsoleKey.LeftArrow:
-                    if (playerX > 0) playerX--;
+                    if (playerX > 0 && !obstacles[playerX - 1, playerY]) playerX--;
                     break;
                 case ConsoleKey.RightArrow:
-                    if (playerX < width - 1) playerX++;
+                    if (playerX < width - 1 && !obstacles[playerX + 1, playerY]) playerX++;
                     break;
             }
         }
